@@ -1,0 +1,622 @@
+{
+  "id": "b8cfa22f-79c1-4200-b743-6347c4a35de0",
+  "name": "Agreena_API_Tests",
+  "timestamp": "2023-07-22T10:58:47.202Z",
+  "collection_id": "15626473-09358ab6-3371-413d-b566-fc2a649b04d9",
+  "folder_id": 0,
+  "environment_id": "0",
+  "totalPass": 31,
+  "delay": 0,
+  "persist": true,
+  "status": "finished",
+  "startedAt": "2023-07-22T10:58:43.148Z",
+  "totalFail": 0,
+  "results": [
+    {
+      "id": "316f9bb1-d0b3-466d-95e8-4123551e4b8c",
+      "name": "https://petstore.swagger.io/v2/pet",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "time": 98,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Status code is 200": true,
+        "Response body has expected data": true
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [98],
+      "allTests": [
+        {
+          "Status code is 200": true,
+          "Response body has expected data": true
+        }
+      ]
+    },
+    {
+      "id": "67c2974f-6734-4a2a-a00b-681fdadd9ff4",
+      "name": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
+      "url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available&status=pending",
+      "time": 193,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Response body has expected data": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [193],
+      "allTests": [
+        {
+          "Response body has expected data": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    },
+    {
+      "id": "a858abfa-3449-443a-ac60-c26150ca908b",
+      "name": "https://petstore.swagger.io/v2/pet/78",
+      "url": "https://petstore.swagger.io/v2/pet/78",
+      "time": 98,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Status code is 200": true,
+        "Response body has expected data": true
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [98],
+      "allTests": [
+        {
+          "Status code is 200": true,
+          "Response body has expected data": true
+        }
+      ]
+    },
+    {
+      "id": "9675e159-4157-40a7-8df6-1734947a45e0",
+      "name": "https://petstore.swagger.io/v2/pet",
+      "url": "https://petstore.swagger.io/v2/pet",
+      "time": 98,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Response body has expected data": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [98],
+      "allTests": [
+        {
+          "Response body has expected data": true
+        }
+      ]
+    },
+    {
+      "id": "2f2af8ed-d611-4fa3-b046-83534faca769",
+      "name": "https://petstore.swagger.io/v2/store/order/1",
+      "url": "https://petstore.swagger.io/v2/store/order/1",
+      "time": 99,
+      "responseCode": {
+        "code": 404,
+        "name": "Not Found"
+      },
+      "tests": {
+        "Response body has expected data": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [99],
+      "allTests": [
+        {
+          "Response body has expected data": true
+        }
+      ]
+    },
+    {
+      "id": "7e495fc0-ebdd-4592-b9c8-775c91032e86",
+      "name": "https://petstore.swagger.io/v2/store/inventory",
+      "url": "https://petstore.swagger.io/v2/store/inventory",
+      "time": 99,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Response body has expected data": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [99],
+      "allTests": [
+        {
+          "Response body has expected data": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    },
+    {
+      "id": "eefbaf82-1cb0-44e5-be52-4072ee8d6c27",
+      "name": "https://petstore.swagger.io/v2/user",
+      "url": "https://petstore.swagger.io/v2/user",
+      "time": 98,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Response body has expected data": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [98],
+      "allTests": [
+        {
+          "Response body has expected data": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    },
+    {
+      "id": "5433f044-07cc-478a-b889-51d91a9d9958",
+      "name": "https://petstore.swagger.io/v2/user/Ali",
+      "url": "https://petstore.swagger.io/v2/user/Ali",
+      "time": 100,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Response body has expected data": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [100],
+      "allTests": [
+        {
+          "Response body has expected data": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    },
+    {
+      "id": "31f42477-1f03-4eeb-8910-2cc34ed9510b",
+      "name": "https://petstore.swagger.io/v2/user/login?username=nAJA%2CbAYA%2Cmaya&password=string",
+      "url": "https://petstore.swagger.io/v2/user/login?username=nAJA%2CbAYA%2Cmaya&password=string",
+      "time": 98,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Response body has expected data": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [98],
+      "allTests": [
+        {
+          "Response body has expected data": true
+        }
+      ]
+    },
+    {
+      "id": "c36eac15-78f9-40be-9689-b8f2ce63c2ae",
+      "name": "https://petstore.swagger.io/v2/user/logout",
+      "url": "https://petstore.swagger.io/v2/user/logout",
+      "time": 100,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Status code is 200": true
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [100],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ]
+    },
+    {
+      "id": "d4f4342c-ddee-4469-ad11-7954c12aa87d",
+      "name": "https://petstore.swagger.io/v2/user/createWithArray",
+      "url": "https://petstore.swagger.io/v2/user/createWithArray",
+      "time": 99,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Response body has expected data": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [99],
+      "allTests": [
+        {
+          "Response body has expected data": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    },
+    {
+      "id": "12cac6d1-2a29-4e3b-8f27-44601f8706dc",
+      "name": "https://petstore.swagger.io/v2/user/Hamza",
+      "url": "https://petstore.swagger.io/v2/user/Hamza",
+      "time": 99,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Status code is 200": true
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [99],
+      "allTests": [
+        {
+          "Status code is 200": true
+        }
+      ]
+    },
+    {
+      "id": "0e5325ed-2f6f-4b36-8336-de29b8385c30",
+      "name": "https://petstore.swagger.io/v2/user/Ali",
+      "url": "https://petstore.swagger.io/v2/user/Ali",
+      "time": 97,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Response body has expected data": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [97],
+      "allTests": [
+        {
+          "Response body has expected data": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    },
+    {
+      "id": "c41c00e6-8c6c-47bd-a878-b0ca6f128239",
+      "name": "https://petstore.swagger.io/v2/user/createWithList",
+      "url": "https://petstore.swagger.io/v2/user/createWithList",
+      "time": 98,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Response body has expected data": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [98],
+      "allTests": [
+        {
+          "Response body has expected data": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    },
+    {
+      "id": "5ef3de0f-8522-4e21-bbc8-cb119e1612f6",
+      "name": "https://petstore.swagger.io/v2/store/order",
+      "url": "https://petstore.swagger.io/v2/store/order",
+      "time": 98,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Status code is 200": true,
+        "Response body has expected data": true
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Response body has expected data": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [98],
+      "allTests": [
+        {
+          "Status code is 200": true,
+          "Response body has expected data": true
+        }
+      ]
+    },
+    {
+      "id": "5e315f32-aa60-4617-a9bd-a9e7f0140d59",
+      "name": "https://petstore.swagger.io/v2/store/order/1",
+      "url": "https://petstore.swagger.io/v2/store/order/1",
+      "time": 98,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Status code is 200": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [98],
+      "allTests": [
+        {
+          "Status code is 200": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    },
+    {
+      "id": "048a5de0-11df-4bf4-8b5b-b816e35652ad",
+      "name": "https://petstore.swagger.io/v2/store/inventory",
+      "url": "https://petstore.swagger.io/v2/store/inventory",
+      "time": 97,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Status code is 200": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Status code is 200": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [97],
+      "allTests": [
+        {
+          "Status code is 200": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    },
+    {
+      "id": "414dd94a-0e72-44ff-b721-687a5a7c4ecf",
+      "name": "https://petstore.swagger.io/v2/store/order/78",
+      "url": "https://petstore.swagger.io/v2/store/order/78",
+      "time": 101,
+      "responseCode": {
+        "code": 404,
+        "name": "Not Found"
+      },
+      "tests": {
+        "Status code is 404": true,
+        "Content-Type header is application/json": true
+      },
+      "testPassFailCounts": {
+        "Status code is 404": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Content-Type header is application/json": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [101],
+      "allTests": [
+        {
+          "Status code is 404": true,
+          "Content-Type header is application/json": true
+        }
+      ]
+    }
+  ],
+  "count": 1,
+  "totalTime": 1868,
+  "collection": {
+    "requests": [
+      {
+        "id": "316f9bb1-d0b3-466d-95e8-4123551e4b8c",
+        "method": "POST"
+      },
+      {
+        "id": "67c2974f-6734-4a2a-a00b-681fdadd9ff4",
+        "method": "GET"
+      },
+      {
+        "id": "a858abfa-3449-443a-ac60-c26150ca908b",
+        "method": "POST"
+      },
+      {
+        "id": "9675e159-4157-40a7-8df6-1734947a45e0",
+        "method": "PUT"
+      },
+      {
+        "id": "2f2af8ed-d611-4fa3-b046-83534faca769",
+        "method": "DELETE"
+      },
+      {
+        "id": "7e495fc0-ebdd-4592-b9c8-775c91032e86",
+        "method": "GET"
+      },
+      {
+        "id": "eefbaf82-1cb0-44e5-be52-4072ee8d6c27",
+        "method": "POST"
+      },
+      {
+        "id": "5433f044-07cc-478a-b889-51d91a9d9958",
+        "method": "PUT"
+      },
+      {
+        "id": "31f42477-1f03-4eeb-8910-2cc34ed9510b",
+        "method": "GET"
+      },
+      {
+        "id": "c36eac15-78f9-40be-9689-b8f2ce63c2ae",
+        "method": "GET"
+      },
+      {
+        "id": "d4f4342c-ddee-4469-ad11-7954c12aa87d",
+        "method": "POST"
+      },
+      {
+        "id": "12cac6d1-2a29-4e3b-8f27-44601f8706dc",
+        "method": "DELETE"
+      },
+      {
+        "id": "0e5325ed-2f6f-4b36-8336-de29b8385c30",
+        "method": "GET"
+      },
+      {
+        "id": "c41c00e6-8c6c-47bd-a878-b0ca6f128239",
+        "method": "POST"
+      },
+      {
+        "id": "5ef3de0f-8522-4e21-bbc8-cb119e1612f6",
+        "method": "POST"
+      },
+      {
+        "id": "5e315f32-aa60-4617-a9bd-a9e7f0140d59",
+        "method": "GET"
+      },
+      {
+        "id": "048a5de0-11df-4bf4-8b5b-b816e35652ad",
+        "method": "GET"
+      },
+      {
+        "id": "414dd94a-0e72-44ff-b721-687a5a7c4ecf",
+        "method": "DELETE"
+      }
+    ]
+  }
+}
