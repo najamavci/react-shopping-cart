@@ -8,6 +8,7 @@ describe('Delete User by Username', () => {
       },
     }).then((response) => {
       expect(response.status).to.equal(200);
+      
     });
   });
 });

@@ -13,7 +13,7 @@ describe('Selecting a product and Adding it to Cart', () => {
 
     // Step 3: Check the product availability with size M
     addToCart_Page.elements.getProductLength('have.length', 1);
-
+  
     // Step 4: Add the product to the cart
     addToCart_Page.AddToCart();
 

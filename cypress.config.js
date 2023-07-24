@@ -1,6 +1,7 @@
 const cucumber = require('cypress-cucumber-preprocessor').default;
 
 module.exports = {
+  projectId: 'pott6z',
   reporter: 'cypress-mochawesome-reporter', // for html report
   defaultCommandTimeout: 5000,
   viewportWidth: 1000,
@@ -9,6 +10,7 @@ module.exports = {
   chromeWebSecurity: false,
   pageLoadTimeout: 6000,
   execTimeout: 6000,
+  failOnStatusCode: false,
   // "video": false,
 
   e2e: {

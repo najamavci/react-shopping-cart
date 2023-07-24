@@ -18,7 +18,7 @@ class AddToCart_Page {
     this.elements.getProductLength().click();
   }
   AddToCart() {
-    this.elements.AddToCartButton().eq(3).click();
+    this.elements.AddToCartButton().eq(3).click({force:true});
   }
   SelectedProductName_Verification() {
     this.elements
