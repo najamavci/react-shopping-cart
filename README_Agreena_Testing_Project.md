@@ -83,26 +83,3 @@ Visual Studio Code: # 11 test cases
 Completing the Agreena QA Engineer Tech Challenge was a great experience that allowed me to showcase my skills in UI and API automation testing. I thoroughly enjoyed working on the test cases, automating them using Cypress and Postman, and providing valuable feedback through improvement suggestions. The checklist for the release test ensured that the main features of the application were thoroughly tested and prioritized appropriately.
 
 I hope my efforts and accomplishments in this tech challenge demonstrate my capabilities as a QA Engineer and showcase my dedication to ensuring the quality and reliability of software applications. I look forward to discussing my work further with the Agreena team and exploring how I can contribute to the success of the company as a QA Engineer. Thank you for this opportunity, and I am excited to take the next steps in the hiring process!
-
-## The Agreena Tech Tasks
-
-# Part 1: UI Automation
-
-To begin, please fork this repository into your Github profile:
-https://github.com/jeffersonRibeiro/react-shopping-cart
-You can find all instructions needed for installing and running the app on the Readme of this app.
-● Document at least three test cases in this app;
-● Automate three test cases using Cypress;
-● Report if there are any bugs or improvement suggestions.
-
-# Part 2: API Automation
-
-● Automate API endpoints in the "Petstore" API → https://petstore.swagger.io/.
-You can use Postman for automating them. You can send us the test json file after finishing
-this task.
-
-# Part 3: Release Test
-
-● Prepare a checklist to test which main features should be tested before the release for this
-application: https://react-shopping-cart-67954.firebaseapp.com/
-● Prioritise them from the most to the least critical.
